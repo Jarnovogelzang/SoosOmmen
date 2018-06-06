@@ -15,17 +15,12 @@
 
 		<!-- Header -->
     <header id="header" class="alt">
+      <div class="logo"><a href="index.html">Soos - Ommen</a></div>
       <a href="#menu">Menu</a>
     </header>
 
-		<!-- Nav -->
-    <nav id="menu">
-      <ul class="links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="generic.html">Generic</a></li>
-        <li><a href="elements.html">Elements</a></li>
-      </ul>
-    </nav>
+    <!-- Nav -->
+    <?php include('assets/html/navbar.html'); ?>
 
 		<!-- Banner -->
     <section id="banner">
@@ -48,7 +43,7 @@
           <!-- 2 Columns -->
           <div class="flex flex-2">
             <div class="col col1">
-              <div class="image round fit">
+              <div class="image round fit imagePop">
                 <a href="generic.html" class="link"><img src="images/pic01.jpg" alt="" /></a>
               </div>
             </div>
@@ -68,13 +63,13 @@
         <div class="inner">
           <div class="flex flex-2">
             <div class="col col2">
-              <h3>Suspendisse quis massa vel justo</h3>
-              <p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex.</p>
-              <p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
-              <a href="#" class="button">Learn More</a>
+              <h3>Rooster</h3>
+              <p>De Soos is een non-extistentiële plek waar gemoederen hoog oplopen en er verbinding wordt gezocht tussen verscheidene generaties die fluxe geschwintenheden met elkander converseren, reeds keuvelen genoemd.</p>
+              <p>Het rooster van de Soos bestaat uit een aantal leuke activiteiten die minstens één keer per maand langskomen.</p>
+              <a href="#" class="button">Laat maar zien...</a>
             </div>
             <div class="col col1 first">
-              <div class="image round fit">
+              <div class="image round fit imagePop">
                 <a href="generic.html" class="link"><img src="images/pic02.jpg" alt="" /></a>
               </div>
             </div>
@@ -86,30 +81,27 @@
       <section class="wrapper style1">
         <div class="inner">
           <header class="align-center">
-            <h2>Aliquam ipsum purus dolor</h2>
-            <p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
+            <h2>Referenties</h2>
+            <p>Referenties van een paar culthelden binnen de Sooscollectiviteit!</p>
           </header>
           <div class="flex flex-3">
             <div class="col align-center">
-              <div class="image round fit">
+              <div class="image round fit imagePop">
                 <img src="images/pic03.jpg" alt="" />
               </div>
-              <p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
-              <a href="#" class="button">Learn More</a>
+              <p><i>"De Soos is voor mij een plek om vrij te zijn en te genieten van het leven!"</i></p>
             </div>
             <div class="col align-center">
-              <div class="image round fit">
+              <div class="image round fit imagePop">
                 <img src="images/pic05.jpg" alt="" />
               </div>
-              <p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
-              <a href="#" class="button">Learn More</a>
+              <p><i>"Daar, waar het bier koud is!"</i> </p>
             </div>
             <div class="col align-center">
-              <div class="image round fit">
+              <div class="image round fit imagePop">
                 <img src="images/pic04.jpg" alt="" />
               </div>
-              <p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
-              <a href="#" class="button">Learn More</a>
+              <p><i>"Deze foto was niet genomen bij de Soos, maar de Soos heeft wel altijd zo'n sfeertje!"</i> </p>
             </div>
           </div>
         </div>
@@ -140,3 +132,4 @@
 
 	</body>
 </html>
+<script src="assets/js/animations.js"></script>

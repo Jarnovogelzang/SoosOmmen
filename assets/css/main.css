@@ -9,6 +9,9 @@
 */
 
 /* Reset */
+.imagePop {
+  opacity: 0;
+}
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -1962,8 +1965,8 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #3498db;
-		color: #fff !important;
+		background-color: rgb(201, 215, 216);
+		color: rgb(96, 136, 135) !important;
 	}
 
 		input[type="submit"]:hover,
@@ -1971,7 +1974,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #4aa3df;
+			background-color: rgb(201, 215, 216);
 		}
 
 		input[type="submit"]:active,
@@ -1979,7 +1982,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #258cd1;
+			background-color: rgb(201, 215, 216);
 		}
 
 		input[type="submit"].alt,
@@ -2460,7 +2463,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
-		box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 0px 0px 7px rgb(96, 136, 135), 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
 	}
 
 		.image img {
@@ -2893,9 +2896,9 @@
 				}
 
 			}
-
+  
 		.wrapper.style1 {
-			background-color: #fafafa;
+			background-color: rgb(201, 215, 216);
 			color: #999999;
 		}
 
@@ -2941,7 +2944,7 @@
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: #3498db;
+				background-color: rgb(96, 136, 135);
 				color: #fff !important;
 			}
 
@@ -2950,7 +2953,7 @@
 				.wrapper.style1 input[type="button"]:hover,
 				.wrapper.style1 button:hover,
 				.wrapper.style1 .button:hover {
-					background-color: #4aa3df;
+					background-color: rgb(201, 215, 216);
 				}
 
 				.wrapper.style1 input[type="submit"]:active,
@@ -3107,7 +3110,7 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #3498db;
+			background-color: rgb(96, 136, 135);
 			color: #aed6f1;
 		}
 
@@ -3154,7 +3157,7 @@
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
 				background-color: #fff;
-				color: #3498db !important;
+				color: rgb(96, 136, 135) !important;
 			}
 
 				.wrapper.style2 input[type="submit"].alt,
@@ -3319,7 +3322,7 @@
 			}
 
 			.wrapper.style2 .image {
-				box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
+				box-shadow: 0px 0px 0px 7px rgb(201, 215, 216), 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
 			}
 
 		@media screen and (max-width: 1280px) {
